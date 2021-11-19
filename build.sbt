@@ -2,10 +2,8 @@ import sbt.Keys.libraryDependencies
 
 
 name := "til-scala"
-
 version := "0.1"
-
-scalaVersion := "2.13.2"
+scalaVersion := "2.13.7"
 
 libraryDependencies ++= Seq(
   "io.monix" %% "monix" % "3.1.0",
